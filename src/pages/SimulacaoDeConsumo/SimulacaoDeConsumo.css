@@ -1,0 +1,66 @@
+#formulario {
+  width: 100%;
+}
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.direito,
+.esquerdo {
+  width: 400px;
+}
+
+select {
+  width: 100%;
+}
+
+select,
+input {
+  padding: 10px 80px;
+  border-radius: 5px;
+  background-color: #cccccc49;
+  border: none;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+input {
+  width: 237px;
+}
+.subtitle-simulacao {
+  position: relative;
+  right: 350px;
+  bottom: 80px;
+  width: 20%;
+}
+
+#quantidade,
+#media,
+#cidade,
+.produtos {
+  color: #369928;
+}
+
+label {
+  color: #369928;
+  font-weight: bold;
+}
+
+button {
+  width: 250px;
+  height: 61px;
+  background-color: #369928;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+}
+h1 {
+  position: relative;
+  right: 100px;
+}

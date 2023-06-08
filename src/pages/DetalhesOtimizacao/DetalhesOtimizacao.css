@@ -1,0 +1,110 @@
+main {
+  width: 100%;
+}
+
+.subtitle-rotas {
+  width: 64%;
+  align-items: flex-start;
+  color: #aaaaaa;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.subtitle-rotas p {
+  margin: 0;
+}
+
+.subtitle-rotas .error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 146px;
+}
+
+.main .map {
+  width: 485px;
+}
+
+.previsao {
+  background-color: #35992828;
+  width: 400px;
+  height: 462;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 12px;
+  align-items: flex-start;
+}
+
+.previsao h2 {
+  margin: 0 0 30px;
+  font-size: 20px;
+  color: #369928;
+}
+
+.previsao ul {
+  margin: 0 0 0 10%;
+  padding: 0;
+  list-style: none;
+  width: 90%;
+}
+
+.previsao ul li {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.previsao ul li .info {
+  align-items: flex-start;
+}
+
+.previsao ul li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #369928;
+  display: inline-block;
+  margin-left: -1em;
+  position: absolute;
+  bottom: 10px;
+}
+
+.previsao p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.previsao .from {
+  font-size: 13px;
+}
+
+.address {
+  flex-direction: row;
+}
+
+.address-info {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.address-info p {
+  font-size: 16px;
+  color: #369928;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.address-info span {
+  font-size: 12px;
+  color: #a8a8a8;
+}
